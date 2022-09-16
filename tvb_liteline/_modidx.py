@@ -9,4 +9,7 @@ d = { 'settings': { 'branch': 'master',
                                    'tvb_liteline.core.foo': ('core.html#foo', 'tvb_liteline/core.py'),
                                    'tvb_liteline.core.fsldwipreproc': ('core.html#fsldwipreproc', 'tvb_liteline/core.py'),
                                    'tvb_liteline.core.recon_all': ('core.html#recon_all', 'tvb_liteline/core.py'),
-                                   'tvb_liteline.core.reorient2std': ('core.html#reorient2std', 'tvb_liteline/core.py')}}}
+                                   'tvb_liteline.core.reorient2std': ('core.html#reorient2std', 'tvb_liteline/core.py')},
+            'tvb_liteline.models': { 'tvb_liteline.models.Epileptor': ('models.html#epileptor', 'tvb_liteline/models.py'),
+                                     'tvb_liteline.models.Heun': ('models.html#heun', 'tvb_liteline/models.py'),
+                                     'tvb_liteline.models.JansenRit': ('models.html#jansenrit', 'tvb_liteline/models.py')}}}

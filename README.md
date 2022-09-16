@@ -23,8 +23,13 @@ Fill me in please! Don’t forget code examples:
     2
 
 ``` python
-from tvb_liteline.core import recon_all
+help(recon_all)
 ```
+
+    Help on function recon_all in module tvb_liteline.core:
+
+    recon_all(image_fname, subject_name, parallel=True, openmp=4, subjects_dir=None, license_fname=None)
+        Generate call to the main FreeSurfer script `recon-all` on a given image.
 
 ``` python
 ' '.join(recon_all('foo', 'bar')[0])
