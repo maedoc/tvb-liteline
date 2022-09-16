@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "tvb-liteline"
+  site-url: "https://maedoc.github.io/tvb-liteline"
+  description: "light weight tvb pipeline, also a nbdev test drive"
+  repo-branch: master
+  repo-url: "https://github.com/maedoc/tvb-liteline"
