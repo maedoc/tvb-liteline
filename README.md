@@ -21,3 +21,15 @@ Fill me in please! Don’t forget code examples:
 ```
 
     2
+
+``` python
+from tvb_liteline.core import recon_all
+```
+
+``` python
+' '.join(recon_all('foo', 'bar')[0])
+```
+
+    'recon-all -s bar -i foo -parallel -openmp 4'
+
+🎉 that was easy!

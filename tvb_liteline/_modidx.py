@@ -5,4 +5,8 @@ d = { 'settings': { 'branch': 'master',
                 'doc_host': 'https://maedoc.github.io',
                 'git_url': 'https://github.com/maedoc/tvb-liteline',
                 'lib_path': 'tvb_liteline'},
-  'syms': {'tvb_liteline.core': {'tvb_liteline.core.foo': ('core.html#foo', 'tvb_liteline/core.py')}}}
+  'syms': { 'tvb_liteline.core': { 'tvb_liteline.core.flirt': ('core.html#flirt', 'tvb_liteline/core.py'),
+                                   'tvb_liteline.core.foo': ('core.html#foo', 'tvb_liteline/core.py'),
+                                   'tvb_liteline.core.fsldwipreproc': ('core.html#fsldwipreproc', 'tvb_liteline/core.py'),
+                                   'tvb_liteline.core.recon_all': ('core.html#recon_all', 'tvb_liteline/core.py'),
+                                   'tvb_liteline.core.reorient2std': ('core.html#reorient2std', 'tvb_liteline/core.py')}}}
