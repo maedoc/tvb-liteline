@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "tvb-liteline",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "tvb-liteline",
+    "section": "Install",
+    "text": "Install\npip install tvb_liteline"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "tvb-liteline",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2\n\n\n\nhelp(recon_all)\n\nHelp on function recon_all in module tvb_liteline.core:\n\nrecon_all(image_fname, subject_name, parallel=True, openmp=4, subjects_dir=None, license_fname=None)\n    Generate call to the main FreeSurfer script `recon-all` on a given image.\n\n\n\n\n' '.join(recon_all('foo', 'bar')[0])\n\n'recon-all -s bar -i foo -parallel -openmp 4'\n\n\n🎉 that was easy!"
+  },
+  {
+    "objectID": "models.html",
+    "href": "models.html",
+    "title": "models",
+    "section": "",
+    "text": "source\n\nHeun\n\n Heun ()\n\nStochastic Heun scheme, \\[\n    x_{t+1} = x_t + \\frac{dt}{2}\\left(f(x_t) + f(x_t + dt f(x_t)) \\right)\n    + \\sqrt{dt} g(x_t) dW_t\n\\]\n\nsource\n\n\nEpileptor\n\n Epileptor ()\n\nInitialize self. See help(type(self)) for accurate signature.\n\nsource\n\n\nJansenRit\n\n JansenRit ()\n\nJansen-Rit model of cortical dynamics."
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\n\n\n foo ()"
+  },
+  {
+    "objectID": "core.html#freesurfer",
+    "href": "core.html#freesurfer",
+    "title": "core",
+    "section": "FreeSurfer",
+    "text": "FreeSurfer\n\nsource\n\nrecon_all\n\n recon_all (image_fname, subject_name, parallel=True, openmp=4,\n            subjects_dir=None, license_fname=None)\n\nGenerate call to the main FreeSurfer script recon-all on a given image."
+  },
+  {
+    "objectID": "core.html#fsl",
+    "href": "core.html#fsl",
+    "title": "core",
+    "section": "FSL",
+    "text": "FSL\n\nsource\n\nreorient2std\n\n reorient2std ()\n\nStandardize image data layout.\n\nsource\n\n\nflirt\n\n flirt ()\n\nRegister images."
+  },
+  {
+    "objectID": "core.html#mrtrix",
+    "href": "core.html#mrtrix",
+    "title": "core",
+    "section": "MRtrix",
+    "text": "MRtrix\n\nsource\n\nfsldwipreproc\n\n fsldwipreproc ()\n\nPreprocess a DWI image."
+  },
+  {
+    "objectID": "core.html#examples",
+    "href": "core.html#examples",
+    "title": "core",
+    "section": "Examples",
+    "text": "Examples\nNow, we can easily generate the required command for invoking FreeSurfer. We separate command generation from the invocation, because there might be different ways we want to run the command.\n\ncmd, _ = recon_all('foo', 'bar')\nassert ' '.join(cmd) == 'recon-all -s bar -i foo -parallel -openmp 4'"
+  }
+]
